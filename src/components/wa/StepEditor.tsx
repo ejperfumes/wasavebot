@@ -85,10 +85,10 @@ export function StepEditor({ step, index, total, onChange, onMove, onDuplicate, 
             </SelectTrigger>
             <SelectContent>
               <SelectItem value="text">Texto</SelectItem>
-              <SelectItem value="image">Imagen</SelectItem>
-              <SelectItem value="video">Video</SelectItem>
-              <SelectItem value="audio">Audio</SelectItem>
-              <SelectItem value="document">Documento</SelectItem>
+              <SelectItem value="image">Texto Imagen/Video</SelectItem>
+              <SelectItem value="video">Texto Video</SelectItem>
+              <SelectItem value="audio">Texto Audio</SelectItem>
+              <SelectItem value="document">Texto Documento</SelectItem>
             </SelectContent>
           </Select>
         </div>

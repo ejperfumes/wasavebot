@@ -13,13 +13,13 @@ import { toast } from "sonner";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Panel del Bot de WhatsApp" },
+      { title: "WASAVE BOT" },
       {
         name: "description",
         content:
-          "Administra flujos automáticos, envía mensajes manuales y gestiona la biblioteca de archivos de tu bot de WhatsApp.",
+          "Administra flujos automáticos, envía mensajes manuales y gestiona la biblioteca de archivos de WASAVE BOT.",
       },
-      { property: "og:title", content: "Panel del Bot de WhatsApp" },
+      { property: "og:title", content: "WASAVE BOT" },
       {
         property: "og:description",
         content: "Administra flujos automáticos y envía mensajes desde una sola interfaz.",
@@ -56,7 +56,7 @@ function Index() {
               <MessageCircle className="size-5" />
             </div>
             <div>
-              <h1 className="text-lg font-semibold leading-tight">Bot WhatsApp</h1>
+              <h1 className="text-lg font-semibold leading-tight">WASAVE BOT</h1>
               <p className="text-xs text-muted-foreground">Panel de administración</p>
             </div>
           </div>
